@@ -1,17 +1,17 @@
-# def __solution(password):
-#     capital_count, small_count, digit_count = 0, 0, 0
-#     for p in password:
-#         if p >= 'A' and p <= 'Z':
-#             capital_count += 1
-#         elif p >= 'a' and p <= 'z':
-#             small_count += 1
-#         elif p >= @@@ and p <= @@@:
-#             digit_count += 1
-#     if @@@:
-#         answer = True
-#     else:
-#         answer = False
-#     return answer
+def __solution(password):
+    capital_count, small_count, digit_count = 0, 0, 0
+    for p in password:
+        if p >= 'A' and p <= 'Z':
+            capital_count += 1
+        elif p >= 'a' and p <= 'z':
+            small_count += 1
+        elif p >= @@@ and p <= @@@:
+            digit_count += 1
+    if @@@:
+        answer = True
+    else:
+        answer = False
+    return answer
 
 
 def solution(password):
