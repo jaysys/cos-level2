@@ -1,4 +1,4 @@
-def __solution(money, price, n):
+def _solution(money, price, n):
     answer = 0
     empty_bottle = answer = money // price
     while n <= empty_bottle:

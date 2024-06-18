@@ -1,3 +1,12 @@
+def _solution(money, chairs, desks):
+    answer = 0
+    for chair in chairs:
+        for desk in desks:
+            price = @@@
+            if answer < price and @@@:
+                answer = price
+    return answer
+
 def solution(money, chairs, desks):
     answer = 0
     for chair in chairs:
@@ -6,6 +15,7 @@ def solution(money, chairs, desks):
             if answer < price and @@@:
                 answer = price
     return answer
+
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.
 money1 = 7

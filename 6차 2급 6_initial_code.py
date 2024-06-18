@@ -1,4 +1,4 @@
-def __solution(password):
+def _solution(password):
     capital_count, small_count, digit_count = 0, 0, 0
     for p in password:
         if p >= 'A' and p <= 'Z':
