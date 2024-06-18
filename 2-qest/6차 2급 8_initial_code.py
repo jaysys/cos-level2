@@ -19,13 +19,23 @@ def func_c(number, digit):
         temp = number % 10
         number = number // 10
         ret = ret * 10 + temp
+        #print(temp, number, ret)
     return ret
+
+# def _solution(number):
+#     answer = 0
+#     digit = func_@@@(@@@)
+#     convert_number = func_@@@(@@@)
+#     answer = func_@@@(@@@)
+#     return answer
 
 def solution(number):
     answer = 0
-    digit = func_@@@(@@@)
-    convert_number = func_@@@(@@@)
-    answer = func_@@@(@@@)
+    digit = func_b(number)
+    print(digit)
+    convert_number = func_c(number, digit)
+    print(convert_number)
+    answer = func_a(number, convert_number)
     return answer
 
 #아래는 테스트케이스 출력을 해보기 위한 코드입니다.

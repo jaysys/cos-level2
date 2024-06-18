@@ -1,7 +1,15 @@
+# def _solution(weight, boxes):
+#     answer = 0
+#     for x in boxes:
+#         if @@@:
+#             answer += 1
+#     return answer
+
 def solution(weight, boxes):
     answer = 0
     for x in boxes:
-        if @@@:
+        if x >= weight*90/100 and x <= weight*110/100: 
+            print(x)
             answer += 1
     return answer
 
